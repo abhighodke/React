@@ -11,7 +11,7 @@ const InputBox = ({
     selectCurrency = 'usd'
 }) => {
 
-    const amountInputId = useId();
+   
 
   return (
     <div className="outer">
@@ -19,7 +19,6 @@ const InputBox = ({
         <div className="input">
             <input 
                 type='number'
-                
                 value={amount}
                 onChange={(e) => onAmountChange(Number(e.target.value))}
                 />
