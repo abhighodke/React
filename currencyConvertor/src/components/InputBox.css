@@ -1,0 +1,55 @@
+.outer {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 37%;
+}
+
+label {
+    margin-left: 3px;
+    font-size: medium;
+    color: black;
+    
+}
+
+button{
+    margin-top: 20px;
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    border: none;
+    color: white;
+    outline: none;
+}
+
+.input {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 50%;
+    border: 2px black;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 5px;
+    outline: 1px solid black;
+    
+}
+
+.input:hover {
+    outline: 2px solid black;
+}
+
+
+input {
+    width: 80%;
+    border: none;
+    outline: none;
+    font-size: larger;
+    font-weight: 600;
+}
+
+select {
+    width: 20%;
+    border: none;
+    font-size: larger;
+    font-weight: 600;
+
+}
