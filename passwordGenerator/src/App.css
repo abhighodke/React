@@ -1,0 +1,127 @@
+.btn {
+  background-color: red;
+  color: white;
+  font-weight: 700;
+  
+}
+
+.main{
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #CAEDF7;
+}
+
+.generator {
+  background-color: white;
+  padding: 15px;
+  width: 65%;
+  border-radius: 10px;
+  margin: 30px;
+}
+
+#pg {
+  outline: none;
+  width: 87%;
+  height: 75%;
+  border: none;
+  font-weight: 600;
+  font-size: large;
+}
+
+#len {
+  /* outline: none; */
+  width: 12%;
+  height: 40%;
+  border: 2px solid black ;
+  border-radius: 3px;
+  font-weight: 600;
+  font-size: large;
+  margin: 5px;
+  text-align: center;
+}
+
+#lenRan{
+  width: 50%;
+  accent-color:red;
+  transform: scale(1.5);
+  margin: auto;
+  
+}
+
+.range {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  margin: 5px;
+
+}
+
+.customization {
+  
+  background-color: white;
+  padding: 15px;
+  width: 65%;
+  height: 30% ;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-align: start;
+}
+
+.customContain {
+  display: flex;
+  height: 50%;
+
+}
+
+label {
+  font-size: large;
+  font-weight: 500;
+  margin: 5px;
+}
+
+.checks {
+  display: flex;
+   flex-wrap: wrap; 
+  justify-content: center;
+  flex-direction: column;
+  width: 70%;
+ 
+  margin-left: 50px;
+}
+input + label{
+  font-size: large;
+  font-weight: 500;
+  margin: 5px;
+}
+
+.chkbx {
+ 
+  accent-color: red;
+  width: 50%;
+  height: 50%;
+  border: none;
+  font-weight: 400;
+  font-size: medium;
+}
+
+#copy {
+  align-self:flex-end;
+  margin-right: 220px;
+  margin-top: 20px;
+}
+
+
+
